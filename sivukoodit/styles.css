@@ -6,7 +6,7 @@ p {font-size: 12px;}
 body {color: white;}
 p {color: green;}
 .dirk{
-  borderstyle: dotted;
+  border-style: dotted;
   border-width: 2px;
   border-color: white;
 }

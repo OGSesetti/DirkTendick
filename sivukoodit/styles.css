@@ -5,3 +5,6 @@ body {background-color: black;}
 p {font-size: 12px;}
 body {color: white;}
 p {color: green;}
+.dirk{
+  borderstyle: dotted;
+}

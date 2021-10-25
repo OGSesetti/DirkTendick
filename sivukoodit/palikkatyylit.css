@@ -1,20 +1,4 @@
-body 
-   nav ul {
-        list-style-type: none;
-        margin: 0;
-      
-      }
-    nav a { text-decoration: none; 
-      padding-right: 10px; } 
-    nav li { display: inline; }
-nav {
-  float: left;
-  width: 60%
-  background-color: rgb(0, 191, 255);
-
-section {
-  background-color: lightgray;
-}
-article {
-background-color: grey;
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 100px;
 }

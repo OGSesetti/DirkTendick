@@ -16,7 +16,7 @@ list-style-type: square;
 ol {
 list-style-type: lower-alpha;
 }
-p {
+.jee {
  font-size: 50px;
     border-radius: 25px;
   background: red;

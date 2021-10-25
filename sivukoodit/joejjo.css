@@ -16,3 +16,6 @@ list-style-type: square;
 ol {
 list-style-type: lower-alpha;
 }
+p {
+ font-size: 50px;
+}

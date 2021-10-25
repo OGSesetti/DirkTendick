@@ -1,6 +1,8 @@
-.koira {
+body {
     nav ul { list-style-type: none;} 
     nav a { text-decoration: none; 
      padding-right: 10px; } 
     nav li { display: inline; }
+nav {background-color: rgb(0, 191, 255);}
+
 }

@@ -16,7 +16,6 @@ nav {
   height: 50px;
   background-color: grey;
   padding: 20px;
-  border: 20px rgb(62, 132, 74);  
 }
 
 section {
@@ -25,7 +24,6 @@ section {
   width: 60%;
   background-color: pink;
   height: 200px;
-   border: 20px rgb(73, 156, 73);
 }
 article {
   float: left;
@@ -41,8 +39,7 @@ aside {
     padding: 20px;
   width: 40%;
   background-color: lightblue;
-  height: 500px;
-   border: 20px rgb(73, 156, 73);
+  height: 550px;
 }
 
   footer {

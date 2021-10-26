@@ -4,7 +4,7 @@
 header {
   float: left;
   width: 100%;
-  background-color: lightgreen;
+  background-color: blue;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -14,7 +14,7 @@ nav {
   float: left;
   width: 60%;
   height: 50px;
-  background-color: grey;
+  background-color: pink;
   padding: 20px;
 }
 
@@ -22,15 +22,15 @@ section {
   float: left;
   padding: 20px;
   width: 60%;
-  background-color: pink;
-  height: 200px;
+  background-color: white;
+  height: 250px;
 }
 article {
   float: left;
   padding: 20px;
   width: 60%;
   background-color: red;
-  height: 300px;
+  height: 250px;
    border: 20px rgb(73, 156, 73);
 }
 
@@ -45,7 +45,7 @@ aside {
   footer {
   float: right;
      width: 100%;
-  background-color: lightgreen;
+  background-color: blue;
   padding: 10px;
   text-align: center;
   color: white;

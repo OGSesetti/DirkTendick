@@ -1,92 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Layout</title>
-   <link rel="stylesheet" type="text/css" href="sivukoodit/palikkatyylit.css">
-<meta charset="utf-8">
-
-<style>
-* {
-  box-sizing: border-box;
-}
-
-
-
-
-header {
-  background-color: lightgray;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: black;
-}
-
-
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: right;
-  padding: 20px;
-  width: 40%;
-  background-color: lightblue;
-}
-
-
-section {
-  background-color: red;
-  width: 60%;
-  content: "section";
-  display: table;
-  clear: both;
-}
-
-
-footer {
-  background-color: gray;
-  padding: 10px;
-  text-align: center;
-  color: black;
-}
-
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
-</head>
-<body>
-
-
-<header>
-  <h2>Suomen historia</h2>
-</header>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="https://ogsesetti.github.io/DirkTendick/">Dirk Tendick</a></li>
-      <li><a href="https://ogsesetti.github.io/DirkTendick/second">Toinen sivu</a></li>
-    </ul>
-  </nav>
+    <head>
+ <link rel="stylesheet" type="text/css" href="css/layout.css"> 
+        <meta charset="utf-8">
+        <title>Menu</title>
+    </head>
+  <body>
+    <header>
+        <h1>Menu</h1>
+      </header>
+    
+        <nav>
+        <a href="/index.html">Hirvi</a> |
+        <a href="/second.html">Peura</a>
+        </nav>
+      
+       <aside>
+    <h2>Aside</h2>
+    <p>Asidelle voidaan laittaa esim sivupalkkiin sisältöä</p>
+      </aside> 
+      
+           <section>
+          <h2>Section</h2>        
+      </section>
+      
+        <article>
+          <h2>Tarkoitus</h2>
+          <p>Menun tarkoituksena on helpottaa liikkumista sivujen välillä.</p>
+          <p>Tavoitteena on että sivulle kerätään linkin muille alasivustoille, joihin taas luodaan linkki takaisin menuun.</p>
+        </article>
   
-  <article>
-    <h1>90-luvun lama</h1>
-    <p>Töölöst Kantsuun se oli ysärin alkuu.</p>
-    <p>Toiset selvis toiset ei päässykkään karkuun.</p>
-  </article>
-</section>
-
-<footer>
-  <p>Alaosa</p>
-</footer>
-  
-</body>
+      <footer>
+        <p>Alapalkki</p>
+      </footer>
+  </body>
 </html>
-

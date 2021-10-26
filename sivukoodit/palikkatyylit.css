@@ -4,26 +4,26 @@
 
 nav {
   float: left;
-  width: 100%;
+  width: 60%;
   height: 50px;
-  background: rgb(172, 245, 146);
+  background-color: grey;
   padding: 20px;
-  border: 20px rgb(73, 156, 73);  
+  border: 20px rgb(62, 132, 74);  
 }
 
 section {
   float: left;
   padding: 20px;
-  width: 70%;
-  background-color: rgb(208, 252, 192);
+  width: 60%;
+  background-color: pink;
   height: 200px;
    border: 20px rgb(73, 156, 73);
 }
 article {
   float: left;
   padding: 20px;
-  width: 70%;
-  background-color: rgb(208, 252, 192);
+  width: 60%;
+  background-color: red;
   height: 300px;
    border: 20px rgb(73, 156, 73);
 }
@@ -31,8 +31,8 @@ article {
 aside {
   float: right;
     padding: 20px;
-  width: 30%;
-  background-color: rgb(208, 252, 192);
+  width: 40%;
+  background-color: lightblue;
   height: 500px;
    border: 20px rgb(73, 156, 73);
 }

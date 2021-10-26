@@ -1,6 +1,6 @@
 nav {
   float: left;
-  width: 100%;
+  width: 60%;
   height: 300px;
   background: rgb(172, 245, 146);
   padding: 20px;
@@ -8,7 +8,7 @@ nav {
 }
 section {
   float: left;
-  width: 100%;
+  width: 60%;
   height: 300px;
   background: rgb(172, 245, 146);
   padding: 20px;

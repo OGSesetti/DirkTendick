@@ -1,7 +1,15 @@
 * {
   box-sizing: border-box;
 }
-
+header {
+  float: left;
+  width: 100%;
+  background-color: lightgreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
 nav {
   float: left;
   width: 60%;
@@ -37,19 +45,10 @@ aside {
    border: 20px rgb(73, 156, 73);
 }
 
-header {
-  float: left;
-  width: 100%;
-  background-color: rgb(73, 156, 73);
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
   footer {
   float: right;
      width: 100%;
-  background-color: rgb(73, 156, 73);
+  background-color: lightgreen;
   padding: 10px;
   text-align: center;
   color: white;
